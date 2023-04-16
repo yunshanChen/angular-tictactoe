@@ -1,5 +1,8 @@
+
 # AngularGame
 
+這是一個使用Angular製作的OOXX小遊戲，可以選擇三種不同的棋子進行遊戲。
+三種不同的棋子包含：咖波、黑貓蟲哥哥、小雞。
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
 
 ## Development server
