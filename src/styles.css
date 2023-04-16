@@ -217,6 +217,7 @@ button:hover {
   top: 58%;
   left: 50%;
   z-index: 10;
+  animation-name: bugcat-walk-foot-left-1;
 }
 .capoo .feet .foot.foot-left-2,
 .black-capoo .feet .foot.foot-left-2 {
@@ -224,11 +225,13 @@ button:hover {
   left: 61%;
   rotate: -5deg;
   z-index: 10;
+  animation-name: bugcat-walk-foot-left-2;
 }
 .capoo .feet .foot.foot-left-3,
 .black-capoo .feet .foot.foot-left-3 {
   scale: 1.1;
   z-index: 10;
+  animation-name: bugcat-walk-foot-left-3;
 }
 .capoo .feet .foot.foot-right-1,
 .black-capoo .feet .foot.foot-right-1 {
@@ -236,6 +239,7 @@ button:hover {
   left: 24%;
   z-index: 1;
   transform-origin: top center;
+  animation-name: bugcat-walk-foot-right-1;
 }
 .capoo .feet .foot.foot-right-2,
 .black-capoo .feet .foot.foot-right-2 {
@@ -243,6 +247,7 @@ button:hover {
   left: 40%;
   z-index: 1;
   transform-origin: top center;
+  animation-name: bugcat-walk-foot-right-2;
 }
 .capoo .feet .foot.foot-right-3,
 .black-capoo .feet .foot.foot-right-3 {
@@ -250,4 +255,132 @@ button:hover {
   left: 53%;
   z-index: 1;
   transform-origin: top center;
+  animation-name: bugcat-walk-foot-right-3;
+}
+/* animation */
+@keyframes bugcat-walk-foot-left-1 {
+  0% {
+    transform: rotate(-7deg);
+    top: 57%;
+  }
+  10% {
+    transform: rotate(-10deg);
+    top: 57%;
+  }
+  25% {
+    transform: rotate(0);
+    top: 57%;
+  }
+  50% {
+    transform: rotate(10deg);
+    top: 56%;
+  }
+  75% {
+    transform: rotate(0);
+    top: 57%;
+  }
+  100% {
+    transform: rotate(-7deg);
+    top: 57%;
+  }
+}
+@keyframes bugcat-walk-foot-left-2 {
+  0% {
+    transform: rotate(-5deg);
+    top: 57%;
+  }
+  25% {
+    transform: rotate(5deg);
+    top: 56%;
+  }
+  50% {
+    transform: rotate(-5deg);
+    top: 57%;
+  }
+  85% {
+    transform: rotate(-15deg);
+    top: 56%;
+  }
+  100% {
+    transform: rotate(-5deg);
+    top: 57%;
+  }
+}
+@keyframes bugcat-walk-foot-left-3 {
+  0% {
+    transform: rotate(5deg);
+    top: 54.6%;
+  }
+  25% {
+    transform: rotate(-5deg);
+    top: 55%;
+  }
+  60% {
+    transform: rotate(-15deg);
+    top: 54.6%;
+  }
+  75% {
+    transform: rotate(-5deg);
+    top: 55%;
+  }
+  100% {
+    transform: rotate(5deg);
+    top: 54.6%;
+  }
+}
+@keyframes bugcat-walk-foot-right-1 {
+  0% {
+    transform: rotate(10deg);
+    top: -5;
+  }
+  25% {
+    transform: rotate(0);
+  }
+  60% {
+    transform: rotate(-10deg);
+  }
+  85% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(10deg);
+    top: -5;
+  }
+}
+@keyframes bugcat-walk-foot-right-2 {
+  0% {
+    transform: rotate(0);
+  }
+  35% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@keyframes bugcat-walk-foot-right-3 {
+  0% {
+    transform: rotate(-7deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  25% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-7deg);
+  }
 }
