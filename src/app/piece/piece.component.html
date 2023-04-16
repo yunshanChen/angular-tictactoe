@@ -1,0 +1,7 @@
+<h2 class="name">{{ bugcat?.name }}</h2>
+<div class="intro">{{ bugcat?.intro }}</div>
+<div class="bugcat" [ngSwitch]="bugcat?.id">
+  <app-capoo *ngSwitchCase="1"></app-capoo>
+  <app-black-capoo *ngSwitchCase="2"></app-black-capoo>
+  <app-chicken *ngSwitchCase="3"></app-chicken>
+</div>

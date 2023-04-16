@@ -1,0 +1,13 @@
+<div class="status">
+  <div class="players">
+    <div class="playerA">玩家A：{{ playerAPieceName }}</div>
+    <div class="playerA">玩家B：{{ playerBPieceName }}</div>
+  </div>
+  {{ statusMessage }}
+</div>
+
+<div class="main">
+  <app-board></app-board>
+  <app-history></app-history>
+</div>
+<button class="reset-board" (click)="resetBoard()">重新開始</button>

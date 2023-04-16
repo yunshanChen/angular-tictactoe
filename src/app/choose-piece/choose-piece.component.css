@@ -1,0 +1,38 @@
+.title {
+  font-size: 32px;
+}
+.players {
+  display: flex;
+}
+.player {
+  padding: 10px 20px;
+  border: 2px solid #000;
+  font-size: 20px;
+}
+.player-name {
+  font-size: 24px;
+  border-bottom: 2px solid #000;
+}
+.playerB {
+  margin-left: 20px;
+}
+.set-piece {
+  padding: 5px 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgb(90, 90, 193);
+}
+.set-piece:hover {
+  background-color: blue;
+}
+
+.model {
+  display: flex;
+}
+.bugcat {
+  width: 200px;
+  height: 200px;
+}

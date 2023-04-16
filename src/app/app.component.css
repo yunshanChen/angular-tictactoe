@@ -1,0 +1,15 @@
+a {
+  padding: 10px 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #555;
+  display: inline-block;
+}
+a:hover,
+a.active {
+  background-color: #000;
+}
+a:not(:first-child) {
+  margin-left: 10px;
+}

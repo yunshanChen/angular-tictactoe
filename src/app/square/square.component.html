@@ -1,0 +1,5 @@
+<div class="square" (click)="squareClick()" [ngSwitch]="pieceId">
+  <app-capoo *ngSwitchCase="1"></app-capoo>
+  <app-black-capoo *ngSwitchCase="2"></app-black-capoo>
+  <app-chicken *ngSwitchCase="3"></app-chicken>
+</div>

@@ -1,0 +1,9 @@
+<div class="history">
+  <h3 class="title">歷史紀錄</h3>
+  <ul *ngFor="let step of history; let i = index">
+    <li>
+      <span>{{ i + 1 }}. 玩家{{ step?.player }}：</span>
+      <span>{{ step?.squareId }}</span>
+    </li>
+  </ul>
+</div>

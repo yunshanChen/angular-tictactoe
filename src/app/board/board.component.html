@@ -1,0 +1,5 @@
+<div class="board">
+  <div class="squares" *ngFor="let square of squares; let squireId = index">
+    <app-square [pieceId]="square.pieceId" [squireId]="squireId"></app-square>
+  </div>
+</div>
